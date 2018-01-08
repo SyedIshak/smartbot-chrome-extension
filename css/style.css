@@ -1,0 +1,39 @@
+body {
+    width: 250px;
+}
+
+.Bot-item .btn-remove-Bot {
+    display:none;
+}
+
+.Bot-item:hover .btn-remove-Bot {
+    display: block;
+}
+
+.Bot-item .Bot-content {
+    font-weight: bold;
+}
+.Bot-item.completed .Bot-content {
+    color:darkgray;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#Bot-list {
+    margin-bottom: 10px;
+}
+
+#btn-remove-all {
+    margin-bottom: 10px;
+}
+
+span.alignLeft{
+    float: left;
+    background-color: #cadcf9;
+    border-radius: 5px;
+}
+span.alignRight{
+    float: right;
+    background-color: #cadcf9;
+    border-radius: 5px;
+}
